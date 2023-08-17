@@ -1,0 +1,56 @@
+{
+    "cupcakes": [
+        {
+            "id":1,
+            "color":"Blue",
+            "flavor":"Fresa",
+            "photo":"https://bromabakery.com/wp-content/uploads/2023/03/Single-Serve-Vanilla-Cupcake-1067x1600.webp",
+            "description":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from",
+            "price":20
+        },
+        {
+            "id":2,
+            "color":"Red",
+            "flavor":"Fresa",
+            "photo":"https://bromabakery.com/wp-content/uploads/2023/03/Single-Serve-Vanilla-Cupcake-1067x1600.webp",
+            "description":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from",
+            "price":15
+        },
+        {
+            "id":3,
+            "color":"Purple",
+            "flavor":"Fresa",
+            "photo":"https://bromabakery.com/wp-content/uploads/2023/03/Single-Serve-Vanilla-Cupcake-1067x1600.webp",
+            "description":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from",
+            "price":18
+        },
+        {
+            "id":5,
+            "color":"Purple",
+            "flavor":"Fresa",
+            "photo":"https://bromabakery.com/wp-content/uploads/2023/03/Single-Serve-Vanilla-Cupcake-1067x1600.webp",
+            "description":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from",
+            "price":36
+        }
+    ],
+    "books": [
+        {
+            "id":1,
+            "title":"Harry Potter",
+            "price":30,
+            "img":"https://cdn.domestika.org/c_limit,dpr_1.0,f_auto,q_80,w_820/v1528056185/content-items/002/378/541/piedra_filosofal-original.jpg?1528056185"
+        },
+        {
+            "id":2,
+            "title":"Harry Potter",
+            "price":30,
+            "img":"https://cdn.domestika.org/c_limit,dpr_1.0,f_auto,q_80,w_820/v1528056185/content-items/002/378/541/piedra_filosofal-original.jpg?1528056185"
+        },
+        {
+            "id":3,
+            "title":"Harry Potter",
+            "price":30,
+            "img":"https://cdn.domestika.org/c_limit,dpr_1.0,f_auto,q_80,w_820/v1528056185/content-items/002/378/541/piedra_filosofal-original.jpg?1528056185"
+        }
+    ]
+}

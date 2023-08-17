@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import 'react-toastify/dist/ReactToastify.css';
+import { BrowserRouter,Routes,Route, Navigate } from "react-router-dom";
+import Layout from "./layouts/Layout";
+import HomePage from "./pages/HomePage";
+import BookPage from './pages/BookPage';
+import CupcakePage from './pages/CupcakePage';
+import AboutUsPage from './pages/AboutUsPage';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout/>}>
+          <Route index element={<HomePage/>}/>
+          <Route path='cupcakes' element={<CupcakePage/>}/>
+          <Route path='books' element={<BookPage/>}/>
+          <Route path='about-us' element={<AboutUsPage/>}/>
+        </Route>
+        <Route path='*' element={<Navigate to="/" />} />
+      </Routes>
+    </BrowserRouter>
+  )
 }
 
-export default App;
+export default App
