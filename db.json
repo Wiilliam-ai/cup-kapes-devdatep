@@ -31,6 +31,22 @@
             "photo":"https://bromabakery.com/wp-content/uploads/2023/03/Single-Serve-Vanilla-Cupcake-1067x1600.webp",
             "description":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from",
             "price":36
+        },
+        {
+            "id":6,
+            "color":"Purple",
+            "flavor":"Fresa",
+            "photo":"https://bromabakery.com/wp-content/uploads/2023/03/Single-Serve-Vanilla-Cupcake-1067x1600.webp",
+            "description":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from",
+            "price":36
+        },
+        {
+            "id":7,
+            "color":"Purple",
+            "flavor":"Fresa",
+            "photo":"https://bromabakery.com/wp-content/uploads/2023/03/Single-Serve-Vanilla-Cupcake-1067x1600.webp",
+            "description":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from",
+            "price":36
         }
     ],
     "books": [

@@ -14,16 +14,27 @@ const AboutUsPage = () => {
           <div className="w-full md:w-1/2 p-2">
             <form className="bg-white p-4 rounded shadow-md lg:grid lg:gap-4 lg:grid-cols-2">
                 <div>
-                    <label className="text-gray-600 font-semibold uppercase" htmlFor="name">Name</label>
-                    <input className="block w-full border my-2 rounded p-2" type="text" id="name" />
+                    <label className="text-gray-600 font-semibold uppercase" 
+                            htmlFor="name">Name</label>
+                    <input className="block w-full border my-2 rounded p-2" 
+                           type="text" 
+                           placeholder="your name please"
+                           id="name" />
                 </div>
                 <div>
-                    <label className="text-gray-600 font-semibold uppercase" htmlFor="name">Email</label>
-                    <input className="block w-full border my-2 rounded p-2" type="text" id="name" />
+                    <label className="text-gray-600 font-semibold uppercase" 
+                           htmlFor="name">Email</label>
+                    <input className="block w-full border my-2 rounded p-2" 
+                           type="text"
+                           placeholder="email example correo@correo.com" 
+                           id="name" />
                 </div>
                 <div className="col-span-2">
-                    <label className="text-gray-600 font-semibold uppercase" htmlFor="name">Message</label>
-                    <textarea className="block w-full border my-2 rounded p-2" id="name" />
+                    <label className="text-gray-600 font-semibold uppercase" 
+                           htmlFor="name">Message</label>
+                    <textarea className="block w-full border my-2 rounded p-2"
+                              placeholder="write to message"
+                              id="name" />
                 </div>
                 <button className="bg-green-500 w-full p-2 text-xl rounded text-white font-semibold">
                   Send
