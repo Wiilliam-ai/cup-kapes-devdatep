@@ -24,7 +24,7 @@ const HomePage = () => {
             <p className="text-center">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
           </div>
           <div className="bg-white p-2 rounded shadow">
-            <h3 className="text-center font-bold uppercase text-xl my-2">La Mara</h3>
+            <h3 className="text-center font-bold uppercase text-xl my-2">Dorian</h3>
             <p className="text-center">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
           </div>
           <div className="bg-white p-2 rounded shadow">
@@ -32,7 +32,7 @@ const HomePage = () => {
             <p className="text-center">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
           </div>
           <div className="bg-white p-2 rounded shadow">
-            <h3 className="text-center font-bold uppercase text-xl my-2">La Mara</h3>
+            <h3 className="text-center font-bold uppercase text-xl my-2">El Tri</h3>
             <p className="text-center">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
           </div>
         </Containers>
