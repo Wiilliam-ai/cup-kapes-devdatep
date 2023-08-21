@@ -36,7 +36,7 @@ const HomePage = () => {
             <p className="text-center">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
           </div>
         </Containers>
-
+        <p>Faltan mas cosas</p>
         </main>
     </>
   )
