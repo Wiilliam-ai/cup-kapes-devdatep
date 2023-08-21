@@ -17,6 +17,13 @@ const HomePage = () => {
           <Service img={cardSubSvg} title="Promotions" description="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form," />
           <Service img={deliverySvg} title="Delivery" description="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form," />
         </Containers>
+
+        <Containers title="Customers">
+          <Service img={bookSvg} title="Books" description="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form," />
+          <Service img={cupcakeSvg} title="Cupcakes" description="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form," />
+          <Service img={cardSubSvg} title="Promotions" description="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form," />
+        </Containers>
+
         </main>
     </>
   )
